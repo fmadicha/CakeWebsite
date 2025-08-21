@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeWebsite", "CakeWebsite\CakeWebsite.csproj", "{4DC28B69-D9B3-4398-926D-D871B401EA26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.DataAccess", "Cake.DataAccess\Cake.DataAccess.csproj", "{BE705357-80B3-4DDC-8E13-7EE5220654AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Models", "Cake.Models\Cake.Models.csproj", "{B9BD874E-89BE-4014-9B81-5FE029546FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Utility", "Cake.Utility\Cake.Utility.csproj", "{DD4C16D7-3030-4E70-8B89-B89065D28C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{4DC28B69-D9B3-4398-926D-D871B401EA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC28B69-D9B3-4398-926D-D871B401EA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC28B69-D9B3-4398-926D-D871B401EA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE705357-80B3-4DDC-8E13-7EE5220654AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE705357-80B3-4DDC-8E13-7EE5220654AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE705357-80B3-4DDC-8E13-7EE5220654AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE705357-80B3-4DDC-8E13-7EE5220654AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BD874E-89BE-4014-9B81-5FE029546FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BD874E-89BE-4014-9B81-5FE029546FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BD874E-89BE-4014-9B81-5FE029546FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BD874E-89BE-4014-9B81-5FE029546FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4C16D7-3030-4E70-8B89-B89065D28C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4C16D7-3030-4E70-8B89-B89065D28C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4C16D7-3030-4E70-8B89-B89065D28C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4C16D7-3030-4E70-8B89-B89065D28C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
